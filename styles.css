@@ -41,6 +41,7 @@ textarea {
     margin-top: 2rem;
     font-size: large;
     font-family: inherit;    
+    background: transparent;
 }
 
 button {
