@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #FCD34D;
+    --black: #1F2937
+    ;
+    --width-break:600px;
+}
+
+body {
+    font-family: 'Grirassol',
+        cursive;
+        margin:0px;
+        color: var(--black);
+        
+      } 
+ 
+nav {
+    background-color: var(--primary);
+    text-align: center;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;    
+}
+
+button {
+    background-color: var(--primary);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: inherit;
+    font-size: large;
+    border-radius: 1rem;
+}
+
+
+#translate-output {
+    box-sizing: border-box;
+    width: 100%;
+    height: 20vh;
+    border: 1px solid var(--black);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary);
+    text-align: center;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
