@@ -16,6 +16,7 @@ function getTranslationURL(text)
 function errorHandler(error)
 {
     console.log("Error! Try again later");
+    alert("Try Again Later! Server Error.")
 }
 
 function clickHandler()
