@@ -7,8 +7,7 @@
 
 :root {
     --primary: #FCD34D;
-    --black: #1F2937
-    ;
+    --black: #1F2937;
     --width-break:600px;
 }
 
@@ -42,6 +41,7 @@ textarea {
     font-size: large;
     font-family: inherit;    
     background: transparent;
+    font-weight:bolder;
 }
 
 button {
