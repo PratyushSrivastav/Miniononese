@@ -5,7 +5,7 @@ var translateInput = document.querySelector("#translate-input");
 
 var translateOutput = document.querySelector("#translate-output");
 
-var severURL = "https://api.funtranslations.com/translate/minion.json"
+var serverURL = "https://api.funtranslations.com/translate/minion.json"
 
 
 function getTranslationURL(text)
