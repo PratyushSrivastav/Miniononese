@@ -40,7 +40,6 @@ textarea {
     margin-top: 2rem;
     font-size: large;
     font-family: inherit;    
-    background: transparent;
     font-weight:bolder;
 }
 
@@ -60,6 +59,7 @@ button {
     width: 100%;
     height: 20vh;
     border: 1px solid var(--black);
+    background: scroll;
 }
 
 footer {
